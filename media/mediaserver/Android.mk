@@ -63,4 +63,6 @@ endif
 LOCAL_MODULE:= mediaserver
 LOCAL_32_BIT_ONLY := true
 
+LOCAL_INIT_RC := mediaserver.rc
+
 include $(BUILD_EXECUTABLE)
